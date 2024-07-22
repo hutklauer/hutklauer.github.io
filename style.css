@@ -1,0 +1,84 @@
+@media (prefers-reduced-motion: no-preference) {
+	html,
+	body {
+		margin: 0;
+		padding: 0;
+		scroll-snap-type: y mandatory;
+		scroll-behavior: smooth;
+		scroll-padding: 0;
+	}
+	section {
+		scroll-snap-align: start;
+		scroll-margin: 0;
+	}
+}
+
+html,
+body {
+	position: relative;
+}
+
+section {
+	background: #fff;
+	min-height: 100vh;
+	padding: 2.5em;
+}
+
+
+
+section > * {
+	max-width: 100em;
+	margin: 3em auto;
+	font-family: Arial bold, Helvetica, sans-serif;
+	font-size: 20;
+	color: white;
+	text-align: left;
+}
+
+section h2 {
+	font-size: 10em;
+	text-align: center;
+	line-height: 2rem;
+	-webkit-backface-visibility: hidden;
+}
+
+
+
+section p {
+	text-align: left;
+	-webkit-backface-visibility: hidden;
+}
+/* Colored sections */
+
+#part_1 {
+	background: lightgreen;
+}
+#part_1 img {
+	float: center;
+	margin-left: 1em;
+	}
+#part_2 {
+	background: lightgreen;
+}
+
+
+#part_3 {
+	background: lightgreen;
+}
+
+#part_4 {
+	background: lightgreen;
+}
+#part_5 {
+	background: black;
+}
+@media screen and (max-width: 32em) {
+	section h2 {
+		font-size: 2em;
+	}
+	section p {
+		width: 90%;
+		left: 5%;
+		margin-top: 0;
+	}
+}
