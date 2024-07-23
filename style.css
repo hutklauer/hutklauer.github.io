@@ -1,6 +1,7 @@
 @media (prefers-reduced-motion: no-preference) {
 	html,
 	body {
+
 		margin: 0;
 		padding: 0;
 		scroll-snap-type: y mandatory;
@@ -19,7 +20,8 @@ body {
 }
 
 section {
-	background: #fff;
+
+	background: lightgreen;
 	min-height: 100vh;
 	padding: 2.5em;
 }
@@ -27,15 +29,17 @@ section {
 
 
 section > * {
+
 	max-width: 100em;
 	margin: 3em auto;
 	font-family: Arial bold, Helvetica, sans-serif;
 	font-size: 20;
-	color: white;
+	color: #27AB6B;
 	text-align: left;
 }
 
 section h2 {
+		
 	font-size: 10em;
 	text-align: center;
 	line-height: 2rem;
@@ -47,29 +51,47 @@ section h2 {
 section p {
 	text-align: left;
 	-webkit-backface-visibility: hidden;
+
 }
 /* Colored sections */
 
 #part_1 {
-	background: lightgreen;
+	 background: black;
+	background-image: url("saws.png");
+	background-size: cover;	
 }
-#part_1 img {
-	float: center;
-	margin-left: 1em;
-	}
+
+	
 #part_2 {
-	background: lightgreen;
+	background: black;
+	background-image: url("lathet.png");
+	background-size: cover;
 }
 
 
 #part_3 {
-	background: lightgreen;
+	background: black;
+	background-image: url("frameinjig.png");
+		background-size: cover;
 }
 
 #part_4 {
-	background: lightgreen;
-}
+	background: black;
+	background-image: url("frameinjig2.png");
+		background-size: cover;
+	}
 #part_5 {
+	background: black;
+	background-image: url("forkdropout.png");
+		background-size: cover;
+}
+
+#part_6 {
+	background: black;
+	background-image: url("fender.png");
+		background-size: cover;
+}
+#part_7 {
 	background: black;
 }
 @media screen and (max-width: 32em) {
