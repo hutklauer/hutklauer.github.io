@@ -20,7 +20,6 @@ body {
 }
 
 section {
-	background-size: cover;
 	background-image: linear-gradient(lightgreen, pink);
 	padding: 0;
 	margin: 0;
@@ -31,7 +30,7 @@ section {
 section > * {
 
 	max-width: 100em;
-	margin: 3em auto;
+	margin: 0;
 	font-family: Arial bold, Helvetica, sans-serif;
 	font-size: 20;
 	color: #27AB6B;
