@@ -22,8 +22,8 @@ body {
 section {
 
 	background-image: linear-gradient(lightgreen, black);
-	min-height: 100vh;
-	padding: 2.5em;
+	padding: 0;
+	margin: 0;
 }
 
 
