@@ -20,21 +20,25 @@ body {
 }
 
 section {
-	background-image: linear-gradient(lightgreen, pink);
-	padding: 0;
-	margin: 0;
+
+	background-image: linear-gradient(lightgreen, black);
+	min-height: 100vh;
+	padding: 2.5em;
 }
 
-
+img{
+	width: 60%;
+  	height: auto;
+  	display:block; 
+  	margin-left: auto; 
+  	margin-right: auto;
+  	
+  }
 
 section > * {
 
-	max-width: 100em;
-	margin: 0;
-	font-family: Arial bold, Helvetica, sans-serif;
-	font-size: 20;
-	color: #27AB6B;
-	text-align: left;
+	max-width: 40em;
+	margin: 0.5em auto;
 }
 
 section h2 {
@@ -54,8 +58,10 @@ section p {
 }
 /* Colored sections */
 
+
+
 #part_1 {
-	 background: black;
+	background: black;
 	background-image: url("saws.png");
 	background-size: cover;	
 }
@@ -98,7 +104,7 @@ section p {
 		font-size: 2em;
 	}
 	section p {
-		width: 100%;
+		width: 90%;
 		left: 5%;
 		margin-top: 0;
 	}
